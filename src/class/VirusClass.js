@@ -24,7 +24,8 @@ class VirusClass {
     elVirus.addEventListener('click', function() {
       elVirus.remove();
       let count = document.querySelectorAll('.virus').length;
-      document.querySelector('#count').innerText = count;
+      let count1 = document.querySelectorAll('.virus1').length;
+      document.querySelector('#count').innerText = count + count1;
     });
     return elVirus;
   }

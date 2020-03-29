@@ -40,7 +40,21 @@ a:active {
   left: 0px;
   top: 0px;
   position: absolute;
-  transition-property: width height background-color font-size left top color;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+  transition-timing-function: linear;
+}
+
+.virus1 {
+  padding: 10px;
+  width: 35px;
+  height: 30px;
+  background-image: url('aftercorona.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  position: absolute;
   transition-duration: 0.5s;
   transition-delay: 0.5s;
   transition-timing-function: linear;
