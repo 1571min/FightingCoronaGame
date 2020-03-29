@@ -22,7 +22,9 @@ class VirusClass {
     let elVirus = document.createElement('span');
     elVirus.className = 'virus';
     elVirus.addEventListener('click', function() {
-      //바이러스 퇴치 todo
+      elVirus.remove();
+      let count = document.querySelectorAll('.virus').length;
+      document.querySelector('#count').innerText = count;
     });
     return elVirus;
   }

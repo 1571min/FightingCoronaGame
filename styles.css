@@ -11,11 +11,7 @@ body {
   background-size: cover;
   position: relative;
 }
-body,
-html {
-  cursor: url(vaccine.png), url(vaccine.png), auto;
-}
-a {
+body {
   cursor: url(vaccine.png), url(vaccine.png), auto;
 }
 
@@ -25,42 +21,13 @@ a:visited,
 a:active {
   color: lightblue;
 }
-.title,
-.addDancerButton {
+.addVirusButton {
   padding: 5px 12px;
   float: right;
 }
 .topbar {
   height: 32px;
   background-color: #555;
-}
-.title {
-  background-color: #777;
-}
-/* .dancer {
-  border: 1px solid red;
-  border-radius: 10px;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-} */
-
-.dancer {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  background-image: url('corona.png');
-  border-radius: 10px;
-  /* font-size: 20px; */
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  transition-property: width height background-color font-size left top color;
-  transition-duration: 0.5s;
-  transition-delay: 0.5s;
-  transition-timing-function: linear;
-  transform: rotate(120deg);
 }
 
 .virus {

@@ -11,11 +11,7 @@ class CoronaVirus extends VirusClass {
   step() {
     super.step();
     let style = this.$node.style;
-    style.display = style.display === 'none' ? 'inline-block' : 'none';
-    //2. 랜덤 컬러 스타일을 적용
-    // style.backgroundColor =
-    //   '#' + parseInt(Math.random() * 0xffffff).toString(16);
-    // super.setPosition(this.top + 1, this.left + 1);
+    // style.display = style.display === 'none' ? 'inline-block' : 'none';
   }
 }
 
